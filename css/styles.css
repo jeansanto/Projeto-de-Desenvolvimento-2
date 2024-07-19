@@ -439,3 +439,86 @@
 #footer-links-container {
   margin: 30px 0;
 }
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  #search-form {
+    width: 50%;
+    margin-left: 100px;
+  }
+  
+  .produto-card {
+    width: calc(33.333% - 20px); /* 3 columns */
+  }
+}
+
+@media (max-width: 992px) {
+  #search-form {
+    width: 60%;
+    margin-left: 80px;
+  }
+  
+  .produto-card {
+    width: calc(50% - 20px); /* 2 columns */
+  }
+}
+
+@media (max-width: 768px) {
+  #ferraco-title {
+    font-size: 24px;
+    left: 50px;
+  }
+
+  #search-form {
+    width: 70%;
+    margin-left: 50px;
+  }
+  
+  .produto-card {
+    width: 100%; /* 1 column */
+  }
+  
+  .produto-card .card-body {
+    padding: 15px;
+  }
+  
+  .produto-card .card-btn-container {
+    flex-direction: column;
+  }
+  
+  .produto-card .card-btn {
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  #logo {
+    width: 40px;
+  }
+
+  #ferraco-title {
+    font-size: 20px;
+    left: 45px;
+  }
+
+  #search-form {
+    width: 80%;
+    margin-left: 20px;
+  }
+  
+  #navbar {
+    min-width: auto;
+  }
+  
+  .produto-card .card-title {
+    font-size: 16px;
+  }
+  
+  .produto-card .card-text, .produto-card .card-material, .produto-card .card-price, .produto-card .card-rendimento, .produto-card .card-despesas {
+    font-size: 14px;
+  }
+  
+  .produto-card .card-btn {
+    padding: 8px;
+  }
+}

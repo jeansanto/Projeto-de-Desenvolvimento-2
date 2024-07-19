@@ -5,12 +5,13 @@ Este projeto foi desenvolvido para a empresa Ferraço Sul, especializada em prod
 ## Tecnologias Utilizadas
 
 ### Front-end
+
 - **HTML:** Utilizado para estruturar as páginas do sistema.
 - **CSS:** Utilizado para estilizar e tornar as páginas mais atraentes.
 - **JavaScript:** Utilizado para interações dinâmicas no front-end.
-- **PHP:** Utilizado para gerar dinamicamente as páginas HTML e manipular os dados no lado do servidor.
 
 ### Back-end
+
 - **PHP:** Utilizado para a lógica de negócios, manipulação de dados e comunicação com o banco de dados.
 - **MySQL:** Utilizado para armazenar e gerenciar os dados do sistema, com a interface do phpMyAdmin para administração do banco de dados.
 - **XAMPP:** Usado como ambiente de desenvolvimento local, incluindo Apache, MySQL e PHP.
@@ -21,19 +22,26 @@ Este projeto foi desenvolvido para a empresa Ferraço Sul, especializada em prod
 ### Requisitos Funcionais
 
 - **Autenticação de Usuário:**
+
   - Login
   - Logout
   - Registro de novos usuários
 
 - **Gestão de Produtos:**
+
   - Adicionar novos produtos
   - Visualizar lista de produtos
   - Editar produtos existentes
   - Remover produtos
 
 - **Gestão de Usuários:**
+
   - Editar perfil do usuário
   - Gerenciar permissões de acesso
+
+- **Requisitos Não Funcionais:**
+
+  - A imagem é carregada no banco de dados corretamente, mas não é exibida corretamente na parte visual da web.
 
 ## Estrutura do Projeto
 
