@@ -1,7 +1,5 @@
 # Projeto-de-Desenvolvimento-2
 
-# Projeto de Gerenciamento de Produtos - Ferraço Sul
-
 Este projeto foi desenvolvido para a empresa Ferraço Sul, especializada em produtos de ferro, aço, vidro e alumínio. O sistema permite gerenciar produtos, usuários e realizar operações básicas de CRUD (Create, Read, Update, Delete).
 
 ## Tecnologias Utilizadas
